@@ -1,0 +1,54 @@
+.DoneIcon,
+.EditIcon,
+.DeleteIcon{
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.DeleteIcon{
+    color: red;
+}
+.DeleteIcon:hover{
+    background-color: red;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.5s ;
+}
+.EditIcon{
+    color: blue;
+    border-color: blue;
+}
+.EditIcon:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.5s ;
+}
+.DoneIcon{
+    color:green ;
+    border-color: green;
+}
+.DoneIcon:hover{
+    background-color: green;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.5s ;
+}
+.task{
+    padding: 0px 10px ;
+    margin: 15px;
+    margin-bottom: 30px;
+    background-color: #888;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 15px ;
+}
+.content{
+    margin: 0px 10px;
+}
+.content>h1 {
+    font-size: 2.4rem;
+}
+.content>p{
+    font-size: 1.1rem;
+}
